@@ -3,7 +3,7 @@ import * as GGMN from './GGMN';
 import * as GeoPoint from './GeoPoint';
 import * as OrgType from './OrgType';
 import { PendingReading } from './PendingReading';
-import * as PendingResource from './PendingResource';
+import { PendingResource } from './PendingResource';
 import * as PendingTimeseries from './PendingTimeseries';
 import * as Reading from './Reading';
 import * as ReadingImage from './ReadingImage';
