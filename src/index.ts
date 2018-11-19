@@ -1,32 +1,96 @@
-import * as Enums from './Enums';
-import * as GGMN from './GGMN';
-import * as GeoPoint from './GeoPoint';
-import * as OrgType from './OrgType';
+import {
+  ResourceType,
+  ResourceTypeArray,
+  BaseApiType
+} from './Enums';
+import {
+  GGMNLocationResponse,
+  GGMNTimeseriesResponse,
+  GGMNSearchResponse,
+  GGMNSearchEntity,
+  GGMNUsersResponse,
+  GGMNUser,
+  GGMNGroundwaterStationResponse,
+  GGMNSaveReadingResponse,
+  GGMNReadingData,
+  GGMNGroundwaterStation,
+  GGMNFilterResponse,
+  GGMNResponseTimeseries,
+  GGMNTimeseriesEvent,
+  GGMNLocation,
+  GGMNGeometry,
+  GGMNOrganisation,
+  GGMNOrganisationResponse,
+  KeychainLoginDetails,
+} from './GGMN';
+import { GeoPoint } from './GeoPoint';
+import {OrgType} from './OrgType';
 import { PendingReading } from './PendingReading';
-import {PendingResource} from './PendingResource';
-import * as PendingTimeseries from './PendingTimeseries';
-import * as Reading from './Reading';
-import * as ReadingImage from './ReadingImage';
-import * as ReadingLocation from './ReadingLocation';
-import * as Resource from './Resource';
-import * as ResourceOwnerType from './ResourceOwnerType';
-import * as ShortId from './ShortId';
-import * as Timeseries from './Timeseries';
+import { PendingResource } from './PendingResource';
+import { PendingTimeseries } from './PendingTimeseries';
+import { AnyReading, MyWellReading, GGMNReading } from './Reading';
+import {
+  MaybeReadingImage,
+  ReadingImageType,
+  ReadingImage,
+  NoReadingImage,
+} from './ReadingImage';
+import {
+  MaybeReadingLocation,
+  ReadingLocationType,
+  ReadingLocation,
+  NoReadingLocation,
+} from './ReadingLocation';
+import { AnyResource, MyWellResource, GGMNResource }from './Resource';
+import { ResourceOwnerType } from './ResourceOwnerType';
+import { ShortId } from './ShortId';
+import { AnyTimeseries, MyWellTimeseries, GGMNTimeseries } from './Timeseries';
 
 
 export {
-  Enums,
-  GGMN,
+  ResourceType,
+  ResourceTypeArray,
+  BaseApiType,
+  GGMNLocationResponse,
+  GGMNTimeseriesResponse,
+  GGMNSearchResponse,
+  GGMNSearchEntity,
+  GGMNUsersResponse,
+  GGMNUser,
+  GGMNGroundwaterStationResponse,
+  GGMNSaveReadingResponse,
+  GGMNReadingData,
+  GGMNGroundwaterStation,
+  GGMNFilterResponse,
+  GGMNResponseTimeseries,
+  GGMNTimeseriesEvent,
+  GGMNLocation,
+  GGMNGeometry,
+  GGMNOrganisation,
+  GGMNOrganisationResponse,
+  KeychainLoginDetails,
   GeoPoint,
   OrgType,
   PendingReading,
   PendingResource,
   PendingTimeseries,
-  Reading,
+  AnyReading, 
+  MyWellReading, 
+  GGMNReading,
+  MaybeReadingImage,
+  ReadingImageType,
   ReadingImage,
+  NoReadingImage,
+  MaybeReadingLocation,
+  ReadingLocationType,
   ReadingLocation,
-  Resource,
+  NoReadingLocation,
+  AnyResource, 
+  MyWellResource, 
+  GGMNResource,
   ResourceOwnerType,
   ShortId,
-  Timeseries,
+  AnyTimeseries,
+  MyWellTimeseries,
+  GGMNTimeseries,
 }
