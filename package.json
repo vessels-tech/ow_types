@@ -22,6 +22,6 @@
     "typescript": "^3.0.3"
   },
   "peerDependencies": {
-    "ow_translations": "../ow_translations/lib"
+    "ow_translations": "git://github.com/vessels-tech/ow_translations#db0584d852a005f2b65bf692849b668ea793ccd3"
   }
 }
