@@ -23,7 +23,7 @@ import {
   GGMNOrganisationResponse,
   KeychainLoginDetails,
 } from './GGMN';
-import { GeoPoint } from './GeoPoint';
+import { GeoPoint, OWGeoPoint } from './GeoPoint';
 import {OrgType} from './OrgType';
 import { PendingReading } from './PendingReading';
 import { PendingResource } from './PendingResource';
@@ -70,6 +70,7 @@ export {
   GGMNOrganisationResponse,
   KeychainLoginDetails,
   GeoPoint,
+  OWGeoPoint,
   OrgType,
   PendingReading,
   PendingResource,
